@@ -119,6 +119,9 @@ button:focus {
     font-size: 12px;
     letter-spacing: 2px;
     margin-bottom: 20px; }
+  .cncf-logo{
+    width: 25rem;
+  }
 
 /* End Main Title Area css
 ============================================================================================ */
@@ -552,7 +555,15 @@ button:focus {
       margin-bottom: 0px;
       text-transform: capitalize;
       font-weight: bold; }
-    .banner_area .banner_inner .banner_content .page_link a {
+    .banner_content p{
+      font-family: "Rajdhani", sans-serif;
+    }
+    .banner_content a{
+      font-family: "Rajdhani", sans-serif;
+      font-size: 1.2rem;
+      font-weight: bold;
+    }
+    .banner_area .banner_inner .page_link a {
       font-size: 14px;
       color: #fff;
       font-family: "Roboto", sans-serif;
@@ -3628,13 +3639,16 @@ h6 {
     margin-bottom: 15px; }
   .news_widget .input-group {
     position: relative;
-    width: 90%; }
+    width: 15rem; }
+    .news_widget input {
+      border: 0.5px solid black;
+    }
     .news_widget .input-group input {
       height: 50px;
       background: #fff;
       border-radius: 50px;
       width: 100%;
-      border: none;
+      /* border: none; */
       padding: 0px 15px;
       font-size: 14px;
       font-family: "Roboto", sans-serif;
